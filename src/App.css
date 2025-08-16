@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* first head part  */
+.head-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin: 1rem;
+}
+.heading-left{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  border: 2px green;
+}
+.icon-right{
+  border: 2px green;
+}
+
+/* First button  */
+.fst-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-btn{
+  background-color: rgb(34,139,230);
+  color: white;
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+
+}
+
+
+
+/* Task form part  */
+.parent-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* border: 2px solid red; */
+  /* width: 100%; */
+  /* height: 80vh; */
+}
+.form-page{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.active{
+  display: block;
+}
+.design-form{
+  width: 26rem;
+  height: 14rem;
+  background-color: rgb(224, 235, 245);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* border: 2px solid red; */
+  top: 15rem;
+}
+input{
+  border: none;
+  height: 2rem;
+  width: 16rem;
+  padding: 10px;
+}
+.btn-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.create-btn{
+  background-color:  rgb(34,139,230);
+  border: none;
+  color: white;
+  height: 2rem;
+  padding: 8px;
+  border-radius: 5px;
+}
+.cancel-btn{
+  border: none;
+  color: rgb(34,139,230);
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 800;
+
+}
+
+/* task data show part  */
+.myUnOrdList {
+  display: flex;
+  justify-content: space-evenly;
+}
+section ul{
+  list-style: none;
+  font-size: 1.5rem;
+  color: grey;
+}
+button{
+  border: none;
+  background-color: white;
+  color: red;
+
+}
+.data-flex{
+  display: flex;
+  justify-content: space-between;
+}
+li h4{
+  color: black;
+}
+.data-style{
+  border-radius: 8px;
+  width: 20rem;
+  padding: 10px;
+  /* color: grey; */
+}
