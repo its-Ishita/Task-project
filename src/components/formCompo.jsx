@@ -55,7 +55,7 @@ const Taskform = ({ active, setActive }) => {
 						</div>
 
 						{/* Create Task Button */}
-						<button type="submit" className="create-btn">
+						<button type="submit" className="create-btn" onClick={() => setActive(false)}>
 							Create Task
 						</button>
 					</div>
